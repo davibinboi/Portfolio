@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Porfolio/static/css/main.e0692413.css",
-    "main.js": "/Porfolio/static/js/main.249e8d1a.js",
+    "main.js": "/Porfolio/static/js/main.d22ca9f6.js",
     "static/js/453.ace21015.chunk.js": "/Porfolio/static/js/453.ace21015.chunk.js",
     "static/media/logo.png": "/Porfolio/static/media/logo.88eca852795be46d52af.png",
     "static/media/Shrikar Seshadri's Resume.pdf": "/Porfolio/static/media/Shrikar Seshadri's Resume.f840d9161b05999fbf22.pdf",
@@ -15,11 +15,11 @@
     "index.html": "/Porfolio/index.html",
     "static/media/Apple MacOSX.svg": "/Porfolio/static/media/Apple MacOSX.6716caf08dfb7d91ce1df4625eadd6e7.svg",
     "main.e0692413.css.map": "/Porfolio/static/css/main.e0692413.css.map",
-    "main.249e8d1a.js.map": "/Porfolio/static/js/main.249e8d1a.js.map",
+    "main.d22ca9f6.js.map": "/Porfolio/static/js/main.d22ca9f6.js.map",
     "453.ace21015.chunk.js.map": "/Porfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0692413.css",
-    "static/js/main.249e8d1a.js"
+    "static/js/main.d22ca9f6.js"
   ]
 }
