@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import mystuff from "../../Assets/headshot-modified.png";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 
@@ -13,7 +14,8 @@ function Home2() {
               A Little <span className="purple"> About </span> Me
             </h1>
             <p className="home-about-body" style={{ lineHeight: "1.8" }}>
-              Hi! I’m Shrikar Seshadri, a junior Computer Science major at <b className="purple">{" Georgia Tech "}</b> with a 4.0 GPA. 
+              Hi! I’m Shrikar Seshadri, a junior Computer Science major at{" "}
+              <b className="purple">{" Georgia Tech "}</b> with a 4.0 GPA.
               Here’s more about me:
               <br />
               <br />
@@ -27,21 +29,22 @@ function Home2() {
                 <li>
                   Previously cofounder of VigilTech, an{" "}
                   <b className="purple">{" AI startup "}</b>
-                  that auto-drafted incident reports from police bodycam footage.
-                  Raised
+                  that auto-drafted incident reports from police bodycam
+                  footage. Raised
                   <b className="purple">{" $150K "}</b> in pre-seed funding.
                 </li>
 
                 <li>
-                  Previous SWE Intern at  
-                  <b className="purple">{" MathWorks "}</b>: optimized Computational
-                  Finance testbeds with weighted decision trees, reducing costs
-                  by
+                  Previous SWE Intern at
+                  <b className="purple">{" MathWorks "}</b>: optimized
+                  Computational Finance testbeds with weighted decision trees,
+                  reducing costs by
                   <b className="purple">{" 30% "}</b>.
                 </li>
 
                 <li>
-                  Previous SWE Intern at<b className="purple">{" The Home Depot "}</b>:
+                  Previous SWE Intern at
+                  <b className="purple">{" The Home Depot "}</b>:
                   <ul>
                     <li>
                       built and deployed{" "}
@@ -77,7 +80,13 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              {/* <img src={myImg} className="img-fluid" alt="avatar" /> */}
+              <img
+                src={mystuff}
+                className="img-fluid"
+                alt="avatar"
+                style={{ width: "15rem", height: "auto"}}
+              />
             </Tilt>
           </Col>
         </Row>

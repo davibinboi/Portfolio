@@ -5,30 +5,75 @@ import { CgWebsite } from "react-icons/cg";
 import { BsYoutube } from "react-icons/bs";
 
 function ProjectCards(props) {
-  return (
-    <Card className="project-card-view" style={{ paddingTop: "15px", paddingBottom: "15px", paddingLeft: "50px", paddingRight: "50px" }}>
+  // Detect "Services Used" section inside description
+  const renderDescription = () => {
+    const text = props.description;
 
+    const match = text.match(
+      /(Google Cloud Platform Services Used:|AWS Services Used:)/
+    );
+
+    if (!match) {
+      return <div style={{ whiteSpace: "pre-line" }}>{text}</div>;
+    }
+
+    const index = match.index;
+    const bullets = text.slice(0, index).trim();
+    const servicesTitle = match[0];
+    const servicesList = text.slice(index + servicesTitle.length).trim();
+
+    return (
+      <>
+        {/* Regular bullet points */}
+        <div style={{ whiteSpace: "pre-line" }}>{bullets}</div>
+
+        {/* Services Box */}
+        <div className="services-box">
+          <div className="services-title">{servicesTitle}</div>
+          {servicesList}
+        </div>
+      </>
+    );
+  };
+
+  return (
+    <Card
+      className="project-card-view"
+      style={{
+        paddingTop: "15px",
+        paddingBottom: "15px",
+        paddingLeft: "50px",
+        paddingRight: "50px",
+      }}
+    >
       {/* Optional image */}
       {props.imgPath && (
         <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       )}
 
       <Card.Body>
-        <Card.Title style = {{whiteSpace: "pre-line", textAlign: "left", lineHeight: "1.8rem"}}>{props.title}</Card.Title>
+        <Card.Title
+          style={{
+            whiteSpace: "pre-line",
+            textAlign: "left",
+            lineHeight: "1.8rem",
+          }}
+        >
+          {props.title}
+        </Card.Title>
 
-        {/* Bullet points appear on separate lines */}
-        <Card.Text style={{ whiteSpace: "pre-line", textAlign: "left" }}>
-          {props.description}
+        <Card.Text style={{ textAlign: "left" }}>
+          {renderDescription()}
         </Card.Text>
 
-        {/* GitHub button only appears if ghLink is provided */}
+        {/* GitHub / Learn More button */}
         {props.ghLink && (
           <Button variant="primary" href={props.ghLink} target="_blank">
             {props.isBlog ? "Blog" : "Learn More"}
           </Button>
         )}
 
-        {/* Demo button only appears if demoLink is provided */}
+        {/* Demo button */}
         {props.demoLink && (
           <Button
             variant="primary"
