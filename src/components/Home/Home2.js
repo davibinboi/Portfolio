@@ -22,7 +22,7 @@ function Home2() {
               <ul className="home-about-bullets">
                 <li>
                   <b className="purple">{" International Top 10 "}</b>
-                  in the 2024 Google Student Developer Challenge as the only
+                  in the 2024 <b className="purple">{" Google Student Developer Challenge "}</b> as the only
                   team from North America.
                 </li>
 

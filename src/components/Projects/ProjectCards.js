@@ -62,7 +62,7 @@ function ProjectCards(props) {
           {props.title}
         </Card.Title>
 
-        <Card.Text style={{ textAlign: "left" }}>
+        <Card.Text style={{ textAlign: "left", lineHeight: "1.8rem" }}>
           {renderDescription()}
         </Card.Text>
 

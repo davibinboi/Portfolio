@@ -30,9 +30,10 @@ function Projects() {
                 </>
               }
               date="Jan 2024 – Present"
-              description={`• Built MERN app for real-time physical-therapy pose correction.
-• Used DTW + vector analysis to compare patient form; added NeRF-based personalization.
-• Created therapist dashboard for LLM-generated summaries + personalized exercises.
+              description={`
+                • Built MERN app for real-time pose correction during at-home physical therapy exercises.
+• Leveraged dynamic time warping and static vector analysis to compare exercise form; applied Neural Radiance fields to tailor pose correction by adapting ideal form to the user’s body type.
+• Designed therapist dashboard to review LLM-generated exercise summaries, assess patient videos,leave feedback, and assign personalized exercises between sessions using captured metrics.
 
 Google Cloud Platform Services Used:
 Cloud Run, Firebase, MediaPipe, Artifact Registry,
@@ -66,6 +67,22 @@ Lambda, DynamoDB, API Gateway`}
         </h2>
 
         <Row style={{ justifyContent: "center" }}>
+          {/* ---------------------- Home Depot ---------------------- */}
+          <Col md={8} className="project-card">
+            <ProjectCard
+              title="Machine Learning Intern — The Home Depot"
+              date="Aug – Dec 2025"
+              description={`• Constructed large-scale weighted product graph and trained HeteroSAGE Graph Neural Network with custom message-sharing layer; applied postprocessing filters to generate product-bundling recommendations on HomeDepot.com.
+• Added Sentence-Transformer text embeddings to enrich vertex features.
+• Integrated model as sub-agent using GCP Agent Development Kit.
+
+Google Cloud Platform Services Used:
+Agent Develpoment Kit, BigQuery, Cloud Storage
+`}
+              imgPath={null}
+            />
+          </Col>
+
           {/* ---------------------- MATHWORKS ---------------------- */}
           <Col md={8} className="project-card">
             <ProjectCard
@@ -96,7 +113,7 @@ Vertex AI, BigQuery, Cloud Storage`}
           {/* ---------------------- THE HOME DEPOT (FALL 2024) ---------------------- */}
           <Col md={8} className="project-card">
             <ProjectCard
-              title="Software Engineer Intern — The Home Depot"
+              title="Data Science Intern — The Home Depot"
               date="Aug – Dec 2024"
               description={`• Optimized Next Bay Cloud SQL selection logic; doubled forecasting accuracy.
 • Trained ARIMA, SARIMAX & DeepAR models with BigQuery feature pipelines.
