@@ -61,6 +61,20 @@ function ProjectCards(props) {
         >
           {props.title}
         </Card.Title>
+        
+        {/* Date */}
+        {props.date && (
+          <div
+            style={{
+              fontSize: "0.9rem",
+              color: "#eee4e4ff",
+              marginBottom: "10px",
+              textAlign: "left",
+            }}
+          >
+            {props.date}
+          </div>
+        )}
 
         <Card.Text style={{ textAlign: "left", lineHeight: "1.8rem" }}>
           {renderDescription()}
