@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Porfolio/static/css/main.b7a9cd77.css",
-    "main.js": "/Porfolio/static/js/main.9981bb71.js",
-    "static/js/453.16fa6309.chunk.js": "/Porfolio/static/js/453.16fa6309.chunk.js",
-    "static/media/headshot-modified.png": "/Porfolio/static/media/headshot-modified.4bf12996bf256eed077b.png",
-    "static/media/logo.png": "/Porfolio/static/media/logo.88eca852795be46d52af.png",
-    "static/media/Shrikar Resume.pdf": "/Porfolio/static/media/Shrikar Resume.0f39980909006d8febf2.pdf",
-    "static/media/home-main.svg": "/Porfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/about.png": "/Porfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/avatar.svg": "/Porfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
-    "static/media/intellij-idea.svg": "/Porfolio/static/media/intellij-idea.a3d71dc3bbbb019fb84226baae835b3a.svg",
-    "static/media/vscode.svg": "/Porfolio/static/media/vscode.f5afdf1c4c0b365325db1e067c48782d.svg",
-    "static/media/Google Chrome.svg": "/Porfolio/static/media/Google Chrome.e4cb7a8170c050a508f0bb06b5606529.svg",
-    "static/media/pre.svg": "/Porfolio/static/media/pre.d4812f51c8c80976eaab.svg",
-    "index.html": "/Porfolio/index.html",
-    "static/media/Apple MacOSX.svg": "/Porfolio/static/media/Apple MacOSX.6716caf08dfb7d91ce1df4625eadd6e7.svg",
-    "main.b7a9cd77.css.map": "/Porfolio/static/css/main.b7a9cd77.css.map",
-    "main.9981bb71.js.map": "/Porfolio/static/js/main.9981bb71.js.map",
-    "453.16fa6309.chunk.js.map": "/Porfolio/static/js/453.16fa6309.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.e81e8795.css",
+    "main.js": "/Portfolio/static/js/main.2ea82034.js",
+    "static/js/453.16fa6309.chunk.js": "/Portfolio/static/js/453.16fa6309.chunk.js",
+    "static/media/headshot-modified.png": "/Portfolio/static/media/headshot-modified.4bf12996bf256eed077b.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.88eca852795be46d52af.png",
+    "static/media/Shrikar Resume.pdf": "/Portfolio/static/media/Shrikar Resume.0f39980909006d8febf2.pdf",
+    "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/avatar.svg": "/Portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/intellij-idea.svg": "/Portfolio/static/media/intellij-idea.a3d71dc3bbbb019fb84226baae835b3a.svg",
+    "static/media/vscode.svg": "/Portfolio/static/media/vscode.f5afdf1c4c0b365325db1e067c48782d.svg",
+    "static/media/Google Chrome.svg": "/Portfolio/static/media/Google Chrome.e4cb7a8170c050a508f0bb06b5606529.svg",
+    "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/Apple MacOSX.svg": "/Portfolio/static/media/Apple MacOSX.6716caf08dfb7d91ce1df4625eadd6e7.svg",
+    "main.e81e8795.css.map": "/Portfolio/static/css/main.e81e8795.css.map",
+    "main.2ea82034.js.map": "/Portfolio/static/js/main.2ea82034.js.map",
+    "453.16fa6309.chunk.js.map": "/Portfolio/static/js/453.16fa6309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7a9cd77.css",
-    "static/js/main.9981bb71.js"
+    "static/css/main.e81e8795.css",
+    "static/js/main.2ea82034.js"
   ]
 }
