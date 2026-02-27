@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e81e8795.css",
-    "main.js": "/Portfolio/static/js/main.7b7894a2.js",
+    "main.js": "/Portfolio/static/js/main.f09a2b30.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/headshot-modified.png": "/Portfolio/static/media/headshot-modified.4bf12996bf256eed077b.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.88eca852795be46d52af.png",
-    "static/media/Shrikar Resume.pdf": "/Portfolio/static/media/Shrikar Resume.0f39980909006d8febf2.pdf",
+    "static/media/Shrikar S's Resume.pdf": "/Portfolio/static/media/Shrikar S's Resume.7f6d55ac66ff4eda7b65.pdf",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/avatar.svg": "/Portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
@@ -16,11 +16,11 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "static/media/Apple MacOSX.svg": "/Portfolio/static/media/Apple MacOSX.6716caf08dfb7d91ce1df4625eadd6e7.svg",
     "main.e81e8795.css.map": "/Portfolio/static/css/main.e81e8795.css.map",
-    "main.7b7894a2.js.map": "/Portfolio/static/js/main.7b7894a2.js.map",
+    "main.f09a2b30.js.map": "/Portfolio/static/js/main.f09a2b30.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e81e8795.css",
-    "static/js/main.7b7894a2.js"
+    "static/js/main.f09a2b30.js"
   ]
 }
